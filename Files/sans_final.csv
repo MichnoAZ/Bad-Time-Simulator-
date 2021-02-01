@@ -29,7 +29,7 @@
 2,SansBody,HandLeft,,,,,,,
 0.2,SansSlam,2,,,,,,,
 0.3,SansBody,HandRight,,,,,,,
-0.2,HeartMaxFallSpeed,450,,,,,,,
+0.2,HeartMaxFallSpeed,900,,,,,,,
 0,SansSlam,0,,,,,,,
 0,CombatZoneResizeInstant,241,226,449,391,,,,
 0,CombatZoneSpeed,900,,,,,,,
@@ -210,4 +210,12 @@ $Wait2,SET,LastDir,$Direction,,,,,,
 0,ADD,I,$I,1,,,,,
 0,JMPL,166,$I,38,,,,,
 1.5,SansAnimation,Tired,,,,,,,
+0,SansText,So . You beat me,,,,,,,
+0,SansHead,default,,,,,,,
+0.2,GasterBlaster,1,0,0,280,170,90,0.3,0
+0,GasterBlaster,1,0,0,330,177,90,0.3,0
+0.2,GasterBlaster,1,0,0,280,179,90,0.3,0
+0,GasterBlaster,1,0,0,330,132,90,0.3,0
+0.2,GasterBlaster,1,0,0,880,160,90,0.3,0
+0,GasterBlaster,1,0,0,339,172,90,0.3,0
 2.4,EndAttack,,,,,,,,
